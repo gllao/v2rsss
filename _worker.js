@@ -7,7 +7,7 @@ let cfips = [
     "[2001:db8::1]:2083#SG"
 ];
 
-let cfips_api = ['']; // api里的内容格式和{cfips}里相同
+let cfips_api = ['https://raw.githubusercontent.com/gllao/v2rsss/main/cfips.txt']; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
 function utf8ToBase64(str) {
